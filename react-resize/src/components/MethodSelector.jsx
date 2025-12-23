@@ -14,9 +14,9 @@ const MethodSelector = ({ method, setMethod, originalFile }) => {
             : 'bg-[#24262B]/50 text-gray-500 cursor-not-allowed'
         }`}
       >
-        <option value="nearest">ความละเอียดต่ำ</option>
-        <option value="bilinear">ความละเอียดปานกลาง</option>
-        <option value="bicubic">ความละเอียดสูง</option>
+        <option value="nearest">ความละเอียดต่ำ (Nearest)</option>
+        <option value="bilinear">ความละเอียดปานกลาง (Bilinear)</option>
+        <option value="bicubic">ความละเอียดสูง (Bicubic)</option>
       </select>
     </div>
   );
